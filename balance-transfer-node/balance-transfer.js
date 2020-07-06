@@ -41,7 +41,11 @@ var Chaincode = class {
     let B = args[2];
     let Aval = args[1];
     let Bval = args[3];
-
+    console.log("Received A val B val");
+    console.log(A);
+    console.log(Aval);
+    console.log(B);
+    console.log(Bval);
     if (typeof parseInt(Aval) !== 'number' || typeof parseInt(Bval) !== 'number') {
       return shim.error('Expecting integer value for asset holding');
     }
