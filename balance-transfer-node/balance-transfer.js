@@ -134,6 +134,7 @@ var Chaincode = class {
 
   // query callback representing the query of a chaincode
   async query(stub, args) {
+    console.log("got a query");
     if (args.length != 1) {
       throw new Error('Incorrect number of arguments. Expecting name of the person to query')
     }
