@@ -1,0 +1,15 @@
+{
+	"name": "balance-transfer",
+	"version": "1.0.0",
+	"description": "Balance Transfer chaincode implemented in JavaScript",
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": { "start" : "node balance-transfer.js" },
+	"engine-strict": true,
+	"license": "Apache-2.0",
+	"dependencies": {
+		"fabric-shim": "~1.4.0"
+	}
+}
